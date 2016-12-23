@@ -1,0 +1,26 @@
+ var JData = [{
+  "library": 1,
+  "name": "Library1",
+  "adress": "Gajeva 46",
+  "email": "mail@library.com",
+  "number" : "+385 1 6345 873",
+  "detail" : "Lorem ipsum dolor sit",
+}, {
+  "library": 2,
+  "name": "Library2",
+  "adress": "Gunduliceva 62",
+  "email": "mail@library.com",
+  "number" : "+385 1 6345 873"
+}, {
+  "library": 3,
+  "name": "Library3",
+  "adress": "Trg Stjepana Radica 53",
+  "email": "mail@library.com",
+  "number" : "+385 1 6345 873"
+}, {
+  "library": 4,
+  "name": "Library4",
+  "adress": "Trg Hrvatskih Velikana 35",
+  "email": "mail@library.com",
+  "number" : "+385 1 6345 873"
+}, ];

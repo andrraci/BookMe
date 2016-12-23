@@ -1,0 +1,8 @@
+var directors = [{dir:'Lord of the Rings',movies:'J.R.R. Tolkien',lib:'<a href="http://www.kgz.hr/hr/knjiznice/gradska-knjiznica/61" class="linkmali">Library Zagreb', ava:'available'}
+,{dir:'The picture of Dorian gray',movies:'Oscar Wilde',lib:'<a href="http://www.kgz.hr/hr/knjiznice/knjiznica-marije-juric-zagorke/78" class="linkmali">Library MJZ',ava:'available'}
+,{dir:'Harry Potter',movies:'JK Rowling',lib:'<a href="http://www.kgz.hr/hr" class="linkmali">Library MD',ava:'available'}
+,{dir:'Beautiful Creatures',movies:'JK Rowling',lib:'<a href="http://www.kgz.hr/hr/knjiznice/knjiznica-staglisce/88" class="linkmali">Library Staglise',ava:'available'}
+,{dir:'Hobbit',movies:'J.R.R. Tolkien',lib:'<a href="http://www.kgz.hr/hr/knjiznice/knjiznica-knezija/75" class="linkmali">Library Knezija',ava:'available'}
+,{dir:'Hannibal',movies:'Thomas Harris',lib:'<a href="http://www.kgz.hr/hr" class="linkmali">Library MD',ava:'available'}
+,{dir:'20000 legues under the sea',movies:'Jules Verne',lib:'<a href="http://www.kgz.hr/hr" class="linkmali">Not available',ava:'Not available'}
+];

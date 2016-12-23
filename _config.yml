@@ -1,0 +1,14 @@
+# Site Settings
+title: BookMe
+email: androracic@gmail.com
+description: >
+  BookMe project.
+baseurl: "/startjekyll"
+url: "http://andrraci.github.io"
+github_username:  andrraci
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM

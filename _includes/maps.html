@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>BookMe - Maps</title>
+
+	<style>
+	
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+	
+		/* Reset CSS
+		 * --------------------------------------- */
+		body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+		form,fieldset,input,textarea,p,blockquote,th,td {
+		    padding: 0;
+		    margin: 0;
+		}
+		a{
+			text-decoration:none;
+		}
+		table {
+		    border-spacing: 0;
+		}
+		fieldset,img {
+		    border: 0;
+		}
+		address,caption,cite,code,dfn,em,strong,th,var {
+		    font-weight: normal;
+		    font-style: normal;
+		}
+		strong{
+			font-weight: bold;
+		}
+		ol,ul {
+		    list-style: none;
+		    margin:0;
+		    padding:0;
+		}
+		caption,th {
+		    text-align: left;
+
+		}
+		h1,h2,h3,h4,h5,h6 {
+		    font-weight: normal;
+		    font-size: 100%;
+		    margin:0;
+		    padding:0;
+		    color:#444;
+		}
+		q:before,q:after {
+		    content:'';
+		}
+		abbr,acronym { border: 0;
+		}
+
+
+		/* Custom CSS
+		 * --------------------------------------- */
+		body{
+			font-family: arial,helvetica;
+			color: #3b80b8;
+			overflow-x:hidden;
+			background-color:#3b80b8;
+		}
+		h1{
+			font-size: 2em;
+			font-family:Roboto;
+			color:white;
+		}
+		p{
+			font-size: 1em;
+			font-family:Roboto;
+			font-weight:300;
+			color:white;
+		}
+
+		#container{
+		background-color:#3b80b8;
+		width:100%;
+		margin:auto;
+		background-image:url('firstback.png');
+		background-repeat:no-repeat;
+		background-position:center bottom;
+		margin-top:10%;
+		}
+		
+		#header{
+		background-color:#FFF;
+		width:100%;
+		height:100px;
+		margin-top:5%;
+		margin:auto;
+		}
+		
+		#logo {
+		width:10%;
+		
+		margin:auto;
+		}
+
+		#mapa {width:50%; height:450px;; margin-left:25%;margin-top:-10%;border:1px solid white;}
+		#images {
+		width:20%;
+		margin-top:-20%;
+		margin-left:50%;
+		overflow:hidden;
+		}
+		
+		#call {
+		width:25%;
+		margin-left:20%;
+		margin-top:5%;
+		margin-bottom:5%;
+		overflow:hidden;
+
+		}
+		
+		#button {
+		width:70%;
+		height:30px;
+		margin-top:2%;
+		background-color:#df7d1f;
+		color:white;
+		text-align:center;
+		}
+		
+		@media only screen and (max-width: 600px) {
+		#images {margin-top:-20%;}
+		#images {width:30%; margin-top:-30%;}
+				#mapa {width:90%;height:300px;margin-top:-60%;margin-left:5%;}
+				#container {margin-top:70%;}
+
+		}
+	
+		
+		@media only screen and (max-width: 500px) {
+    #logo {
+        margin-left:35%;
+    }
+	h1{ font-size:1.5em;}
+	p{ font-size:1em;padding:0;}
+	div {display:block;}
+	#call {  margin-top:20px; width:70%;  }
+	
+	#images { width:90%; margin:auto; margin-top:10px;}
+div.container {
+      width:100%;
+    }
+	#container {min-height:100%;}
+	#button {width:70px; height:33px; margin:auto;}
+	#maps {width:100%;}
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+
+	</style>
+</head>
+<body>
+
+<div id="header"> 
+		<a href="index.html"><div id="logo"> <img src="logo.png" </div></a>
+</div>
+
+<div id="container"><br>
+<div id="mapa"><iframe src="https://www.google.com/maps/d/embed?mid=1CK757TfdtpY0TDM0WDGK8dhtWG8&hl=en" width="100%" height="100%"></iframe></div>
+</div>
+</body>
+</html>

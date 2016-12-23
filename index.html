@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>BookMe - Home</title>
+
+	<link rel="stylesheet" type="text/css" href="_includes/theme.css">
+	<style>
+	
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+	
+		/* Reset CSS
+		 * --------------------------------------- */
+		body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+		form,fieldset,input,textarea,p,blockquote,th,td {
+		    padding: 0;
+		    margin: 0;
+		}
+		a{
+			text-decoration:none;
+		}
+		table {
+		    border-spacing: 0;
+		}
+		fieldset,img {
+		    border: 0;
+		}
+		address,caption,cite,code,dfn,em,strong,th,var {
+		    font-weight: normal;
+		    font-style: normal;
+		}
+		strong{
+			font-weight: bold;
+		}
+		ol,ul {
+		    list-style: none;
+		    margin:0;
+		    padding:0;
+		}
+		caption,th {
+		    text-align: left;
+
+		}
+		h1,h2,h3,h4,h5,h6 {
+		    font-weight: normal;
+		    font-size: 100%;
+		    margin:0;
+		    padding:0;
+		    color:#444;
+		}
+		q:before,q:after {
+		    content:'';
+		}
+		abbr,acronym { border: 0;
+		}
+
+
+		/* Custom CSS
+		 * --------------------------------------- */
+		body{
+			font-family: arial,helvetica;
+			color: #3b80b8;
+			overflow-x:hidden;
+			background-color:#3b80b8;
+		}
+		h1{
+			font-size: 2em;
+			font-family:Roboto;
+			color:white;
+		}
+		p{
+			font-size: 1em;
+			font-family:Roboto;
+			font-weight:300;
+			color:white;
+		}
+
+		#container{
+		background-color:#3b80b8;
+		width:100%;
+		margin:auto;
+		background-image:url('_includes/firstback.png');
+		background-repeat:no-repeat;
+		background-position:center bottom;
+		}
+		
+		#header{
+		background-color:#FFF;
+		width:100%;
+		height:100px;
+		margin-top:5%;
+		margin:auto;
+		}
+		
+		#logo {
+		width:10%;
+		
+		margin:auto;
+		}
+
+		
+		#images {
+		width:20%;
+		margin-top:-20%;
+		margin-left:50%;
+		overflow:hidden;
+		}
+		
+		#call {
+		width:25%;
+		margin-left:20%;
+		margin-top:5%;
+		margin-bottom:5%;
+		overflow:hidden;
+
+		}
+		
+		#button {
+		width:70%;
+		height:30px;
+		margin-top:2%;
+		background-color:#df7d1f;
+		color:white;
+		text-align:center;
+		}
+		
+		@media only screen and (max-width: 600px) {
+		#images {margin-top:-20%;}
+		#images {width:30%; margin-top:-30%;}
+		}
+		
+		@media only screen and (max-width: 500px) {
+    #logo {
+        margin-left:20%;
+    }
+	h1{ font-size:1.5em;}
+	p{ font-size:1em;padding:0;}
+	div {display:block;}
+	#call {  margin-top:20px; width:70%;  }
+	
+	#images { width:90%; margin:auto; margin-top:10px;}
+div.container {
+      width:100%;
+    }
+	#container {min-height:100%;}
+	#button {width:70px; height:33px; margin:auto;}
+	
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+	</style>
+</head>
+<body>
+
+<div id="header"> 
+		<div id="logo"> <img src="_includes/logo.png" </div>
+</div>
+
+<div id="container">
+
+<div id="call"> <h1> Find available books in closest libraries in Zagreb </h1>  <p> with our awesome app </p>
+<a href="_includes/searchresults.html"><div id="button" href="#"> <p style="padding:5px;">SEARCH</p> </div></a></div>
+<div id="images"><img src="_includes/iphone.png" style="width:100%;"/> </div>
+</div>
+</body>
+</html>
